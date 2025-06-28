@@ -10,7 +10,7 @@ class PublicKeyInterceptor : Interceptor {
         val url = request.url
 
         val newUrl = url.newBuilder()
-            .addQueryParameter("apikey", PUBLIC_KEY)
+            .addQueryParameter("apikey", "live_ReweqgIFgkIcIHYYfgGItyZcrXXG4VglvFAZD3lAkSh9Gg4FzIaKXWBGTF9VTuGT")
             .build()
 
         return chain.proceed(

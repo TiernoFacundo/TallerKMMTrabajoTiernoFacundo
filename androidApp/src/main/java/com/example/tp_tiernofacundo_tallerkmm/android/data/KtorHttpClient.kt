@@ -16,7 +16,8 @@ fun createHttpClient(): HttpClient {
 
         install(DefaultRequest) {
             url {
-                host = "gateway.marvel.com"
+                /*host = "gateway.marvel.com"*/
+                host = "api.thecatapi.com"
                 protocol = URLProtocol.HTTPS
             }
         }
